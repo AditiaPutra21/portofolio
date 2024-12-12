@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      padding: 20px;
+      text-align: center;
+      background: #333;
+      color: white;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: #444;
+    }
+    .topnav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .leftcolumn, .rightcolumn {
+      flex: 50%;
+      padding: 20px;
+    }
+    .card {
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      border-radius: 8px;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Portofolio Saya</h1>
+  <h2><p>Halo! Nama saya Adita Putra :)</p></h2>
+</div>
+
+<div class="topnav">
+  <a href="#">Beranda</a>
+  <a href="#tentang">Tentang</a>
+  <a href="#">Proyek</a>
+  <a href="#" style="float:right">Kontak</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Hobi Saya</h2>
+      <h5>Bermain Futsal</h5>
+      <img src="Bruno.jpg" width="200">
+      <!-- <div class="fakeimg" style="height:200px;">Gambar Futsal</div> -->
+      <p>Saya suka bermain futsal di waktu luang. Ini adalah cara yang bagus untuk tetap aktif dan bersenang-senang dengan teman-teman!</p>
+    </div>
+    <div class="card">
+      <h2>Proyek Saya</h2>
+      <h5>Website Portofolio</h5>
+      <img src="projek.png"class="saya">
+   <!-- <div class="fakeimg" style="height:200px;">Gambar Website</div> -->
+      <p>Ini adalah website portofolio pribadi saya di mana saya menampilkan keterampilan dan hobi saya. Tunggu pembaruan selanjutnya!</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card" id="tentang">
+      <h2>Tentang Saya</h2>
+      <img src="fotosaya.png">
+      <!-- <div class="fakeimg" style="height:200px;"></div> -->
+      <p>Nama saya Adita Putra. Saya memiliki ketertarikan pada teknologi dan senang mempelajari keterampilan baru. Di waktu luang, saya suka bermain futsal dan mengeksplorasi proyek kreatif.</p>
+    </div>
+    <div class="card">
+      <h3>Postingan Populer</h3>
+      <div class="fakeimg"><p>Postingan 1</p></div>
+      <div class="fakeimg"><p>Postingan 2</p></div>
+      <div class="fakeimg"><p>Postingan 3</p></div>
+    </div>
+    <div class="card">
+      <h3>Ikuti Saya</h3>
+      <p>Temukan saya di media sosial:</p>
+      <p><a href="#">Instagram</a> | <a href="#">LinkedIn</a> | <a href="#">Twitter</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+  <p>Terima kasih telah mengunjungi portofolio saya!</p>
+</div>
+
+</body>
+</html>
